@@ -11,11 +11,4 @@ export default function Home() {
       
     </main>
   )
-  // adaadadadadadadadadadadadadadadadadadaadadadadadadadadadad
-  // adadadaddadadadadadadadadadadadaadadadadaad
-  // adadadaddadadadadadadadadadadadaadadadadaad
-  // adadadaddadadadadadadadadadadadaadadadadaad
-  // adadadaddadadadadadadadadadadadaadadadadaad
-
-
 }
