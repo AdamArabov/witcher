@@ -13,7 +13,7 @@ title:string
 }){
   return(
     <a href= {url}
-    className='flex items-center p-4 rounded-md hover:scale-105 transition-all w-full border border-white-100 mb-3'
+    className='flex items-center p-4 rounded-md hover:scale-105 transition-all w-full border border-white-100 mb-3 bg-blue-600 max-w-3xl'
     >
     <div className='flex flex-col w-full text-center'>
     <h2 className='font-semibold text-lg '>{title}</h2>
@@ -32,7 +32,7 @@ export default function Home() {
           width={96}
           height={96}
           />
-          <h1 className='mt-4 mb-8 font-bold text-xl '>{data.name}</h1>
+          <h1 className='mt-4 mb-8 font-bold text-xl'>{data.name}</h1>
           {data.links.map((link)=> (
             <LinkCard key={link.url} {...link} />
           ))}
